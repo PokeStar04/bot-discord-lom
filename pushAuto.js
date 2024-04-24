@@ -18,8 +18,13 @@ function formatDate() {
 function checkAndPushChanges() {
     const currentHour = new Date().getHours();
 
-    // Vérifier si l'heure actuelle est entre 8h et 2h (non inclus)
-    if (currentHour >= 8 && currentHour < 2) {
+    // Vérifier si l'heure actuelle est entre 2h et 8h (non inclus)
+    if (currentHour >= 2 && currentHour < 8) {
+        console.log(`Il est ${formatDate()}, le script est en pause jusqu'à 8h.`);
+        return;
+    }
+    // Sinon, vérifier si l'heure actuelle est entre 8h et 2h (non inclus)
+    else if (currentHour >= 8 || currentHour < 2) {
         fs.stat('database.sqlite', (err, stats) => {
             if (err) {
                 console.error('Erreur lors de la lecture des informations sur le fichier :', err);
@@ -72,8 +77,6 @@ function checkAndPushChanges() {
                 //console.log('Aucune modification détectée dans la base de données.');
             }
         });
-    } else {
-        console.log(`Il est ${formatDate()}, le script est en pause jusqu'à 8h.`);
     }
 }
 
