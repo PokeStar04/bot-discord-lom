@@ -88,4 +88,4 @@ typings/
 .dynamodb/
 
 # Config Token
-config.json
+# config.json
