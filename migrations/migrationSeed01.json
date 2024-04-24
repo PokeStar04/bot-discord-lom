@@ -1,0 +1,172 @@
+{
+  "montureMigrations": [
+    {
+      "tier": 5,
+      "nombreEtoile": 1,
+      "nombreRessortToUp": 230,
+      "cumulRessortToUp": 1785
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 2,
+      "nombreRessortToUp": 265,
+      "cumulRessortToUp": 2050
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 3,
+      "nombreRessortToUp": 305,
+      "cumulRessortToUp": 2355
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 4,
+      "nombreRessortToUp": 350,
+      "cumulRessortToUp": 2705
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 5,
+      "nombreRessortToUp": 405,
+      "cumulRessortToUp": 3110
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 6,
+      "nombreRessortToUp": 460,
+      "cumulRessortToUp": 3570
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 7,
+      "nombreRessortToUp": 535,
+      "cumulRessortToUp": 4105
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 8,
+      "nombreRessortToUp": 610,
+      "cumulRessortToUp": 4715
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 9,
+      "nombreRessortToUp": 705,
+      "cumulRessortToUp": 5420
+    },
+    {
+      "tier": 5,
+      "nombreEtoile": 10,
+      "nombreRessortToUp": 810,
+      "cumulRessortToUp": 6230
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 1,
+      "nombreRessortToUp": 970,
+      "cumulRessortToUp": 7200
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 2,
+      "nombreRessortToUp": 1170,
+      "cumulRessortToUp": 8370
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 3,
+      "nombreRessortToUp": 1400,
+      "cumulRessortToUp": 9770
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 4,
+      "nombreRessortToUp": 1680,
+      "cumulRessortToUp": 11450
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 5,
+      "nombreRessortToUp": 2105,
+      "cumulRessortToUp": 13555
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 6,
+      "nombreRessortToUp": 2415,
+      "cumulRessortToUp": 15970
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 7,
+      "nombreRessortToUp": 2905,
+      "cumulRessortToUp": 18875
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 8,
+      "nombreRessortToUp": 3480,
+      "cumulRessortToUp": 22355
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 9,
+      "nombreRessortToUp": 4180,
+      "cumulRessortToUp": 26535
+    },
+    {
+      "tier": 6,
+      "nombreEtoile": 10,
+      "nombreRessortToUp": 5015,
+      "cumulRessortToUp": 31550
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 1,
+      "nombreRessortToUp": 6270,
+      "cumulRessortToUp": 37820
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 2,
+      "nombreRessortToUp": 7835,
+      "cumulRessortToUp": 45655
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 3,
+      "nombreRessortToUp": 9795,
+      "cumulRessortToUp": 55450
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 4,
+      "nombreRessortToUp": 12240,
+      "cumulRessortToUp": 67690
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 5,
+      "nombreRessortToUp": 15305,
+      "cumulRessortToUp": 82995
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 6,
+      "nombreRessortToUp": 19130,
+      "cumulRessortToUp": 102125
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 7,
+      "nombreRessortToUp": 23910,
+      "cumulRessortToUp": 126035
+    },
+    {
+      "tier": 7,
+      "nombreEtoile": 8,
+      "nombreRessortToUp": 29890,
+      "cumulRessortToUp": 155925
+    }
+  ]
+}
