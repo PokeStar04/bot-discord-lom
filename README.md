@@ -1,10 +1,8 @@
-# Bender Bot
+# Imperieum Bot
 
-Discord Bot used as a template to learn NodeJs
+Crée par PokeStar
 
 ## How to install
-
-- git clone https://github.com/SteakBarbare/Bender-Bot
 
 > When it is done, create a config file in the base directory with these fields inside:
 >
@@ -26,5 +24,3 @@ Discord Bot used as a template to learn NodeJs
 
 - Commands folder -> Create new commands inside subfolders, each must have a data & execute
 - Events folder -> You can add new events here, no need for subfolders
-
-
