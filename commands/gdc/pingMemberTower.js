@@ -1,5 +1,7 @@
 const { SlashCommandBuilder } = require("discord.js");
 const { Users } = require("../../dbObjects.js");
+const allowedGuildId = '1227242012390985738';
+
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -7,6 +9,13 @@ module.exports = {
         .setDescription("Ping an user by their ID"),
 
     async execute(interaction) {
+
+
+        // Vérifier si la commande a été exécutée sur le serveur autorisé
+        if (interaction.guildId !== allowedGuildId) {
+            return interaction.reply("Désolé, cette commande n'est pas autorisée sur ce serveur.");
+        }
+
         if (interaction.member.permissions.has("ADMINISTRATOR")) {
             try {
                 // Définir les positions à rechercher
