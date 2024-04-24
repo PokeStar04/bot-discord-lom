@@ -4,7 +4,7 @@ const allowedGuildId = '1227242012390985738';
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("admin_gdc_set_multiple_player_tower")
+        .setName("admin_gdc_set_multiple_p_tower")
         .setDescription("Commande réservée aux administrateurs")
         .addStringOption(option =>
             option.setName('pseudos')
