@@ -1,10 +1,12 @@
 const { SlashCommandBuilder } = require("discord.js");
 const { Users } = require("../../dbObjects.js");
+const Sequelize = require("sequelize"); // Ajoutez cette ligne
+
 const allowedGuildId = '1227242012390985738';
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("admin_gdc_status_tower")
+        .setName("show_users_without_position")
         .setDescription("Affiche tous les utilisateurs qui ne sont pas dans une position de tour"),
 
     async execute(interaction) {
@@ -17,16 +19,23 @@ module.exports = {
             // Récupérer tous les utilisateurs dont la position de tour n'est pas 'H', 'M' ou 'B'
             const usersWithoutPosition = await Users.findAll({
                 where: {
-                    positionTour: {
-                        $not: ['H', 'M', 'B']
-                    }
+                    positionTour: null
                 }
             });
 
             // Construire le message avec les utilisateurs sans position de tour
             let message = "Utilisateurs sans position de tour :\n";
+            let counter = 0; // Initialisez le compteur
             for (const user of usersWithoutPosition) {
-                message += `Nom: ${user.pseudo}\n`;
+                // Ajoutez le pseudo de l'utilisateur au message
+                message += `   --  ${user.pseudo}  --   `;
+                counter++;
+
+                // Si le compteur atteint 4, ajoutez un saut de ligne
+                if (counter === 4) {
+                    message += "\n";
+                    counter = 0; // Réinitialisez le compteur
+                }
             }
 
             // Envoyer le message contenant les utilisateurs sans position de tour
