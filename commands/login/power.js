@@ -28,7 +28,7 @@ module.exports = {
             if (user) {
                 // Mise à jour de la puissance de l'utilisateur
                 await user.update({ power: newPower });
-                await interaction.reply({ content: `Puissance de l'utilisateur ${interaction.user.username} mise à jour avec succès.`, ephemeral: true });
+                await interaction.reply({ content: `Puissance de l'utilisateur ${user.pseudo} mise à jour avec succès.`, ephemeral: true });
             } else {
                 // Si l'utilisateur n'existe pas dans la base de données
                 await interaction.reply({ content: `Vous n'êtes pas enregistré. Veuillez utiliser la commande '/login' d'abord.`, ephemeral: true });
