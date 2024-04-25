@@ -47,7 +47,7 @@ module.exports = {
         setTimeout(async () => {
             try {
                 // Pinguer les utilisateurs dans le message
-                const userPing = ['628635503163473929', '503211192970510365'];
+                const userPing = ['628635503163473929', '503211192970510365', '775726795089379368'];
                 const mentionedUsers = userPing.map(user => `<@${user}>`).join(' ');
                 await interaction.followUp({ content: `${mentionedUsers},Go le voler! #MALVEILLANCE MAX`, ephemeral: false });
             } catch (error) {
