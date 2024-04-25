@@ -37,7 +37,12 @@ module.exports = {
             const star_voulue = interaction.options.getInteger("star_voulue");
             const nombre_ressort = interaction.options.getInteger("nombre_ressort");
             const nombre_gemme = interaction.options.getInteger("nombre_gemme");
-
+            if (star_voulue == 0) {
+                star_voulue = 1;
+            }
+            if (tier_voulu > 7 || (tier_voulu === 7 && star_voulue > 7) || tier > 7 || (tier === 7 && star > 7)) {
+                return interaction.reply({ content: "Les données pour cette monture ne sont pas encore disponibles.Le rang maximal est tier 7 et 8 étoiles", ephemeral: true });
+            }
             const cumulRessort = await Montures.findOne({
                 where: {
                     tier: tier,
@@ -74,7 +79,7 @@ module.exports = {
             }
         } catch (error) {
             console.error("Une erreur s'est produite lors de l'exécution de la commande upMonture:", error);
-            return interaction.reply("Une erreur s'est produite lors de l'exécution de la commande upMonture. Veuillez réessayer plus tard.");
+            // return interaction.reply("Une erreur s'est produite lors de l'exécution de la commande upMonture. Veuillez réessayer plus tard.");
         }
     }
 };
