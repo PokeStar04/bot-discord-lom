@@ -34,10 +34,10 @@ module.exports = {
             const tier = interaction.options.getInteger("tier");
             const star = interaction.options.getInteger("star");
             const tier_voulu = interaction.options.getInteger("tier_voulu");
-            const star_voulue = interaction.options.getInteger("star_voulue");
+            let star_voulue = interaction.options.getInteger("star_voulue");
             const nombre_ressort = interaction.options.getInteger("nombre_ressort");
             const nombre_gemme = interaction.options.getInteger("nombre_gemme");
-            if (star_voulue == 0) {
+            if (star_voulue === 0) {
                 star_voulue = 1;
             }
             if (tier_voulu > 7 || (tier_voulu === 7 && star_voulue > 7) || tier > 7 || (tier === 7 && star > 7)) {
