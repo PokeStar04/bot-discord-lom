@@ -38,7 +38,7 @@ module.exports = {
 
         try {
             // Envoyer le message immédiatement après avoir calculé le temps total
-            await interaction.reply({ content: `Message envoyé dans ${heure} heures, ${minute} minutes et ${seconde} secondes.`, ephemeral: true });
+            await interaction.reply({ content: `Message envoyé dans ${heure} heures, ${minute} minutes et ${seconde} secondes.`, ephemeral: false });
         } catch (error) {
             console.error("Une erreur s'est produite lors de l'envoi du message:", error);
         }
