@@ -41,7 +41,7 @@ module.exports = {
                 star_voulue = 1;
             }
             if (tier_voulu > 7 || (tier_voulu === 7 && star_voulue > 7) || tier > 7 || (tier === 7 && star > 7)) {
-                return interaction.reply({ content: "Les données pour cette monture ne sont pas encore disponibles.Le rang maximal est tier 7 et 8 étoiles", ephemeral: true });
+                await interaction.reply({ content: "Les données pour cette monture ne sont pas encore disponibles.Le rang maximal est tier 7 et 8 étoiles", ephemeral: true });
             }
             const cumulRessort = await Montures.findOne({
                 where: {
@@ -67,15 +67,15 @@ module.exports = {
                     // Gemmes restantes
                     const newGemme = clockAfterGemmes * (-35);
                     const ressortRestant = clockAfterGemmes * -1;
-                    return interaction.reply(`Ressort Restant : **${ressortRestant}**\nGemmes restantes : **${newGemme}** `);
+                    await interaction.reply({ content: `Ressort Restant : **${ressortRestant}**\nGemmes restantes : **${newGemme}** `, ephemeral: true });
                 } else {
                     // Gemmes manquantes
                     const ressortRestant = clockAfterGemmes;
                     const newGemme = clockAfterGemmes * 35;
-                    return interaction.reply(`Ressort Manquant : **${ressortRestant}** ressorts\nGemmes Manquante : **${newGemme}** gemmes`);
+                    await interaction.reply({ content: `Ressort Manquant : **${ressortRestant}** ressorts\nGemmes Manquante : **${newGemme}** gemmes`, ephemeral: true });
                 }
             } else {
-                return interaction.reply(`Ressort Restant : **${numberClockForUpgrade * -1}** ressorts\nAucune Gemme depensé  : **${nombre_gemme}** restante.`);
+                await interaction.reply({ content: `Ressort Restant : **${numberClockForUpgrade * -1}** ressorts\nAucune Gemme depensé  : **${nombre_gemme}** restante.`, ephemeral: true });
             }
         } catch (error) {
             console.error("Une erreur s'est produite lors de l'exécution de la commande upMonture:", error);
