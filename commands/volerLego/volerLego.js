@@ -1,10 +1,10 @@
 const { SlashCommandBuilder } = require("discord.js");
 
-const allowedGuildId = '1227322579564626020';
+const allowedGuildId = '1227242012390985738';
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("voler_lego")
+        .setName("voler_lego_pour_toujours")
         .setDescription("Mettre l'heure à laquelle c'est plantations sont finies")
         .addNumberOption(option =>
             option.setName('heure')
@@ -30,7 +30,11 @@ module.exports = {
         const seconde = interaction.options.getNumber('seconde');
 
         // Calculer le temps total en secondes
-        const tempsTotalEnSecondes = heure * 3600 + minute * 60 + seconde;
+        const tempsTotalEnSecondes = heure * 3600 + minute * 60 + seconde - 20;
+        if (tempsTotalEnSecondes < 0) {
+            return interaction.reply("Désolé, la durée spécifiée est trop courte. Veuillez entrer une durée d'au moins 20 secondes.");
+        }
+
 
         try {
             // Envoyer le message immédiatement après avoir calculé le temps total
@@ -42,8 +46,10 @@ module.exports = {
         // Déclencher l'envoi du message après le temps spécifié
         setTimeout(async () => {
             try {
-                // Envoyer le message après le temps spécifié
-                await interaction.followUp({ content: "Le temps est écoulé!", ephemeral: true });
+                // Pinguer les utilisateurs dans le message
+                const userPing = ['628635503163473929', '503211192970510365'];
+                const mentionedUsers = userPing.map(user => `<@${user}>`).join(' ');
+                await interaction.followUp({ content: `${mentionedUsers},Go le voler! #MALVEILLANCE MAX`, ephemeral: false });
             } catch (error) {
                 console.error("Une erreur s'est produite lors de l'envoi du message:", error);
             }
