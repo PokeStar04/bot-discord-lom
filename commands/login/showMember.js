@@ -18,7 +18,7 @@ module.exports = {
                 // Construire le message à afficher
                 let message = `Voici la totalité du clan (${allUsers.length} membres) :\n`;
                 allUsers.forEach((user, index) => {
-                    message += `${index + 1}. ${user.pseudo}, Puissance: ${user.power}\n`;
+                    message += `${index + 1}. ${user.pseudo}, Power : ${user.power}\n`;
                 });
 
                 // Répondre avec le message contenant les informations des utilisateurs
