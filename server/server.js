@@ -37,13 +37,14 @@ app.put('/users', async (req, res) => {
         for (const updatedUser of updatedUsers) {
             const userId = updatedUser.userId;
 
-            // Vérifier quels champs sont présents dans l'objet utilisateur mis à jour
-            const { pseudo, power, positionTour, ordreTour } = updatedUser;
+            // Créez un objet pour stocker les données de mise à jour
             const updateData = {};
-            if (pseudo !== undefined) updateData.pseudo = pseudo;
-            if (power !== undefined) updateData.power = power;
-            if (positionTour !== undefined) updateData.positionTour = positionTour;
-            if (ordreTour !== undefined) updateData.ordreTour = ordreTour;
+
+            // Vérifiez quels champs sont présents dans l'objet utilisateur mis à jour
+            if (updatedUser.pseudo !== undefined) updateData.pseudo = updatedUser.pseudo;
+            if (updatedUser.power !== undefined) updateData.power = updatedUser.power;
+            if (updatedUser.positionTour !== undefined) updateData.positionTour = updatedUser.positionTour;
+            if (updatedUser.ordreTour !== undefined) updateData.ordreTour = updatedUser.ordreTour;
 
             // Effectuer les mises à jour dans la base de données pour chaque utilisateur
             const user = await User.findByPk(userId);
@@ -58,6 +59,7 @@ app.put('/users', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
+
 
 // Port d'écoute de l'API
 const port = process.env.PORT || 3000;
