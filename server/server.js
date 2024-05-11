@@ -1,5 +1,6 @@
 const express = require('express');
 const Sequelize = require('sequelize');
+const cors = require('cors'); // Importer le module CORS
 
 // Créer une application Express
 const app = express();
@@ -12,6 +13,9 @@ const sequelize = new Sequelize({
 
 // Importer le modèle "users"
 const User = require('../models/users')(sequelize, Sequelize);
+
+// Middleware pour activer CORS
+app.use(cors());
 
 // Endpoint pour récupérer les données de la table users
 app.get('/users', async (req, res) => {
