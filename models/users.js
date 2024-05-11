@@ -24,6 +24,9 @@ module.exports = (sequelize, DataTypes) => {
             positionTour: {
                 type: Sequelize.STRING,
             },
+            ordreTour: {
+                type: Sequelize.INTEGER,
+            }
         },
         {
             timestamps: false

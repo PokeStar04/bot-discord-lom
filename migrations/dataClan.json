@@ -1,0 +1,586 @@
+[
+  {
+    "id": 1,
+    "userId": "628635503163473929",
+    "username": "pokestar7671",
+    "pseudo": "PokeStar",
+    "power": 33586,
+    "positionTour": "M"
+  },
+  {
+    "id": 2,
+    "userId": "503211192970510365",
+    "username": "jeanne.cht",
+    "pseudo": "Madness",
+    "power": 31794,
+    "positionTour": "H"
+  },
+  {
+    "id": 3,
+    "userId": "248191034431897610",
+    "username": "abdallahabudarasantaliani",
+    "pseudo": "Abdallah",
+    "power": 37318.4,
+    "positionTour": "M"
+  },
+  {
+    "id": 4,
+    "userId": "279606262281404417",
+    "username": "larems92",
+    "pseudo": "PiouPiou",
+    "power": 30407,
+    "positionTour": "M"
+  },
+  {
+    "id": 5,
+    "userId": "259634833821532160",
+    "username": "floflolabriko",
+    "pseudo": "FloFlop",
+    "power": 22214,
+    "positionTour": "B"
+  },
+  {
+    "id": 6,
+    "userId": "341238375656849419",
+    "username": "nk7w.",
+    "pseudo": "Nk7w",
+    "power": 28170,
+    "positionTour": "M"
+  },
+  {
+    "id": 7,
+    "userId": "277835247029321728",
+    "username": "inoulikeme",
+    "pseudo": "Ino",
+    "power": 26049,
+    "positionTour": "H"
+  },
+  {
+    "id": 8,
+    "userId": "169891747906715648",
+    "username": "sabiya",
+    "pseudo": "Sabiya",
+    "power": 29791,
+    "positionTour": "M"
+  },
+  {
+    "id": 9,
+    "userId": "1011713896509362208",
+    "username": "kyz_320",
+    "pseudo": "Kyz",
+    "power": 21936,
+    "positionTour": "B"
+  },
+  {
+    "id": 10,
+    "userId": "681120582045401155",
+    "username": "langlab",
+    "pseudo": "Fhuzhull",
+    "power": 29222,
+    "positionTour": "M"
+  },
+  {
+    "id": 11,
+    "userId": "495949283174907904",
+    "username": "lukas78",
+    "pseudo": "Abso",
+    "power": 27581,
+    "positionTour": "M"
+  },
+  {
+    "id": 12,
+    "userId": "264812224202145802",
+    "username": ".seram",
+    "pseudo": "Seram",
+    "power": 28219,
+    "positionTour": "H"
+  },
+  {
+    "id": 13,
+    "userId": "505375768054857735",
+    "username": "zoulou4807",
+    "pseudo": "Captain",
+    "power": 27903,
+    "positionTour": "M"
+  },
+  {
+    "id": 14,
+    "userId": "1026515191225127003",
+    "username": "tiktacbooom",
+    "pseudo": "TicTac",
+    "power": 32267,
+    "positionTour": "H"
+  },
+  {
+    "id": 15,
+    "userId": "753184626977276004",
+    "username": "poe2soon",
+    "pseudo": "Humble",
+    "power": 28563,
+    "positionTour": "M"
+  },
+  {
+    "id": 16,
+    "userId": "594855334288424991",
+    "username": "kayzoph",
+    "pseudo": "Ugod",
+    "power": 29735,
+    "positionTour": "M"
+  },
+  {
+    "id": 17,
+    "userId": "201444279023960065",
+    "username": "ezibalo",
+    "pseudo": "Ezi",
+    "power": 34930,
+    "positionTour": "M"
+  },
+  {
+    "id": 18,
+    "userId": "207130196761903106",
+    "username": "_z3nst_",
+    "pseudo": "Zenst",
+    "power": 27485.5,
+    "positionTour": "H"
+  },
+  {
+    "id": 19,
+    "userId": "773494753592475669",
+    "username": "rayde7604",
+    "pseudo": "Rayde",
+    "power": 29187,
+    "positionTour": "B"
+  },
+  {
+    "id": 20,
+    "userId": "775726795089379368",
+    "username": "caleb6846",
+    "pseudo": "Caleb",
+    "power": 23479.9,
+    "positionTour": "B"
+  },
+  {
+    "id": 21,
+    "userId": "659396811651285005",
+    "username": "yuhy226",
+    "pseudo": "Yuhy",
+    "power": 23567.8,
+    "positionTour": "B"
+  },
+  {
+    "id": 22,
+    "userId": "210747911984644097",
+    "username": "antoine50150",
+    "pseudo": "Antoine",
+    "power": 25150,
+    "positionTour": "H"
+  },
+  {
+    "id": 23,
+    "userId": "884373812177666138",
+    "username": "attilio_g",
+    "pseudo": "Attilio",
+    "power": 32611,
+    "positionTour": "M"
+  },
+  {
+    "id": 24,
+    "userId": "310810427791769620",
+    "username": "maaivy",
+    "pseudo": "Maaivy",
+    "power": 24922,
+    "positionTour": "H"
+  },
+  {
+    "id": 25,
+    "userId": "230075783056457728",
+    "username": "mayuco",
+    "pseudo": "Mayu",
+    "power": 22487,
+    "positionTour": "B"
+  },
+  {
+    "id": 26,
+    "userId": "260184024792694787",
+    "username": "shh4k",
+    "pseudo": "MIG",
+    "power": 33173,
+    "positionTour": "H"
+  },
+  {
+    "id": 27,
+    "userId": "667146127975645215",
+    "username": "zarmmarz",
+    "pseudo": "Zarmarz",
+    "power": 26937,
+    "positionTour": "H"
+  },
+  {
+    "id": 28,
+    "userId": "431192961376583681",
+    "username": "extemee",
+    "pseudo": "Extemee",
+    "power": 20577,
+    "positionTour": "M"
+  },
+  {
+    "id": 29,
+    "userId": "270589139781550080",
+    "username": "zero0light",
+    "pseudo": "Zerolight",
+    "power": 25078,
+    "positionTour": "B"
+  },
+  {
+    "id": 30,
+    "userId": "348509970431737866",
+    "username": "dollzz4502",
+    "pseudo": "DollzZ",
+    "power": 32701,
+    "positionTour": "H"
+  },
+  {
+    "id": 31,
+    "userId": "229373551797469185",
+    "username": "nitoes",
+    "pseudo": "Nitoes",
+    "power": 28470,
+    "positionTour": "H"
+  },
+  {
+    "id": 32,
+    "userId": "108568023878623232",
+    "username": "spimi.",
+    "pseudo": "Spimi",
+    "power": 24601,
+    "positionTour": "M"
+  },
+  {
+    "id": 33,
+    "userId": "544678909245915146",
+    "username": "erebone22",
+    "pseudo": "Ere",
+    "power": 24248.9,
+    "positionTour": "B"
+  },
+  {
+    "id": 34,
+    "userId": "317008302678474774",
+    "username": "ssan2978",
+    "pseudo": "Pisqy_Gojo",
+    "power": 24579,
+    "positionTour": "B"
+  },
+  {
+    "id": 35,
+    "userId": "264138946987032577",
+    "username": "raveur",
+    "pseudo": "Raveur",
+    "power": 27169,
+    "positionTour": "B"
+  },
+  {
+    "id": 36,
+    "userId": "1219658139134328832",
+    "username": "narukami13.",
+    "pseudo": "Narukami",
+    "power": 26569,
+    "positionTour": "H"
+  },
+  {
+    "id": 37,
+    "userId": "164730235231797248",
+    "username": "iamjoran",
+    "pseudo": "Joran",
+    "power": 28551.9,
+    "positionTour": "M"
+  },
+  {
+    "id": 38,
+    "userId": "246704393041346561",
+    "username": "valams",
+    "pseudo": "Valams",
+    "power": 26035,
+    "positionTour": "H"
+  },
+  {
+    "id": 39,
+    "userId": "256484566280175619",
+    "username": "slaysh",
+    "pseudo": "Slaysh",
+    "power": 24049,
+    "positionTour": "B"
+  },
+  {
+    "id": 40,
+    "userId": "531610801933516810",
+    "username": "phasme_furtif",
+    "pseudo": "Phasme",
+    "power": 25986.8,
+    "positionTour": "H"
+  },
+  {
+    "id": 41,
+    "userId": "1000038821666234388",
+    "username": "ghost681460",
+    "pseudo": "GHOST",
+    "power": 25424,
+    "positionTour": "H"
+  },
+  {
+    "id": 42,
+    "userId": "1057166622940479490",
+    "username": "yolke",
+    "pseudo": "Yolke",
+    "power": 26743,
+    "positionTour": "M"
+  },
+  {
+    "id": 44,
+    "userId": "224917026479669252",
+    "username": "tzk93",
+    "pseudo": "Tzk",
+    "power": 29797,
+    "positionTour": "H"
+  },
+  {
+    "id": 45,
+    "userId": "283919107429105667",
+    "username": "zekill",
+    "pseudo": "Zekill",
+    "power": 29591,
+    "positionTour": "M"
+  },
+  {
+    "id": 46,
+    "userId": "269778825729015808",
+    "username": "becks4638",
+    "pseudo": "Becks",
+    "power": 29787,
+    "positionTour": "M"
+  },
+  {
+    "id": 47,
+    "userId": "547813064905588737",
+    "username": "raphx.",
+    "pseudo": "Raph",
+    "power": 32156,
+    "positionTour": "M"
+  },
+  {
+    "id": 48,
+    "userId": "283038779273510912",
+    "username": "ap0n0raj",
+    "pseudo": "Noraj",
+    "power": 28814,
+    "positionTour": "M"
+  },
+  {
+    "id": 49,
+    "userId": "221715844562944000",
+    "username": ".kageki",
+    "pseudo": "Eskere",
+    "power": 31078,
+    "positionTour": "H"
+  },
+  {
+    "id": 50,
+    "userId": "319489985130790913",
+    "username": "chneeeew",
+    "pseudo": "Chnew",
+    "power": 31774,
+    "positionTour": "H"
+  },
+  {
+    "id": 51,
+    "userId": "241563775151505408",
+    "username": "borghess",
+    "pseudo": "Borghess",
+    "power": 27386,
+    "positionTour": "H"
+  },
+  {
+    "id": 52,
+    "userId": "461170776398102528",
+    "username": "aresgamings",
+    "pseudo": "Ares",
+    "power": 25158,
+    "positionTour": "H"
+  },
+  {
+    "id": 53,
+    "userId": "211785324567724032",
+    "username": "nomatchz",
+    "pseudo": "NoMatchz",
+    "power": 26670,
+    "positionTour": "H"
+  },
+  {
+    "id": 54,
+    "userId": "540610172498870272",
+    "username": "anttoiine.",
+    "pseudo": "Barbe",
+    "power": 23127,
+    "positionTour": "B"
+  },
+  {
+    "id": 55,
+    "userId": "322075896116936705",
+    "username": "neeza4943",
+    "pseudo": "NeeZa",
+    "power": 22902,
+    "positionTour": "B"
+  },
+  {
+    "id": 56,
+    "userId": "394202616701255680",
+    "username": "269bestnoob",
+    "pseudo": "Shangai",
+    "power": 26855.9,
+    "positionTour": "M"
+  },
+  {
+    "id": 57,
+    "userId": "302088891652112384",
+    "username": "skez3386",
+    "pseudo": "Skez",
+    "power": 27560,
+    "positionTour": "H"
+  },
+  {
+    "id": 58,
+    "userId": "516166129702404097",
+    "username": "xnico04",
+    "pseudo": "Xnico",
+    "power": 25430,
+    "positionTour": "B"
+  },
+  {
+    "id": 59,
+    "userId": "784513900855033899",
+    "username": "razermau5",
+    "pseudo": "Razermau",
+    "power": 25531,
+    "positionTour": "B"
+  },
+  {
+    "id": 60,
+    "userId": "417735047970422784",
+    "username": "tom.mrl",
+    "pseudo": "Voxney",
+    "power": 24335,
+    "positionTour": "B"
+  },
+  {
+    "id": 61,
+    "userId": "733615415904698398",
+    "username": "sm0kel9",
+    "pseudo": "Sm0keL",
+    "power": 24614,
+    "positionTour": "H"
+  },
+  {
+    "id": 62,
+    "userId": "366654756128686100",
+    "username": "bloodena",
+    "pseudo": "Bloodena",
+    "power": 30320.1,
+    "positionTour": "M"
+  },
+  {
+    "id": 63,
+    "userId": "540146068105723924",
+    "username": "nusaka.",
+    "pseudo": "Bloodina",
+    "power": 28093.8,
+    "positionTour": "H"
+  },
+  {
+    "id": 64,
+    "userId": "275723260996616196",
+    "username": "obisan7103",
+    "pseudo": "BigV",
+    "power": 26742,
+    "positionTour": "M"
+  },
+  {
+    "id": 65,
+    "userId": "390228820453621760",
+    "username": "majin_kulilin",
+    "pseudo": "Majin",
+    "power": 29596,
+    "positionTour": "H"
+  },
+  {
+    "id": 66,
+    "userId": "447976708944166955",
+    "username": "ritchi78ivory",
+    "pseudo": "Ch4tNwar",
+    "power": 29835,
+    "positionTour": "M"
+  },
+  {
+    "id": 67,
+    "userId": "299965549830471682",
+    "username": "looxam",
+    "pseudo": "Looxam",
+    "power": 24904,
+    "positionTour": "H"
+  },
+  {
+    "id": 68,
+    "userId": "249537546055319552",
+    "username": "ikaa9522",
+    "pseudo": "Piche",
+    "power": 22786,
+    "positionTour": "B"
+  },
+  {
+    "id": 69,
+    "userId": "198545706191945730",
+    "username": "hurluberlulu",
+    "pseudo": "Lulu",
+    "power": 24307,
+    "positionTour": "H"
+  },
+  {
+    "id": 70,
+    "userId": "475583452092301332",
+    "username": "flodecky",
+    "pseudo": "DeckyFlo",
+    "power": 24925.1,
+    "positionTour": "M"
+  },
+  {
+    "id": 71,
+    "userId": "301796940428083202",
+    "username": "sky68000",
+    "pseudo": "Sky",
+    "power": 30067,
+    "positionTour": "M"
+  },
+  {
+    "id": 72,
+    "userId": "235310914310504448",
+    "username": "_kulza_",
+    "pseudo": "Riwyrrr",
+    "power": 19661,
+    "positionTour": "M"
+  },
+  {
+    "id": 73,
+    "userId": "319874303405457409",
+    "username": "atom0181",
+    "pseudo": "Atom",
+    "power": 23606,
+    "positionTour": "B"
+  },
+  {
+    "id": 74,
+    "userId": "336216567664738305",
+    "username": "kasuol",
+    "pseudo": "Kasuol",
+    "power": 23547.1,
+    "positionTour": null
+  }
+]
