@@ -27,9 +27,8 @@ app.get('/users', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
-
 // Endpoint pour mettre à jour les utilisateurs
-app.put('/users', async (req, res) => {
+app.put('/updateUsers', async (req, res) => {
     const updatedUsers = req.body; // Les utilisateurs mis à jour envoyés depuis votre site internet
 
     try {
@@ -56,9 +55,10 @@ app.put('/users', async (req, res) => {
         res.status(200).json({ message: 'Users updated successfully' });
     } catch (err) {
         console.error(err);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({ error: 'Internal Server Error', details: err.message });
     }
 });
+
 
 
 // Port d'écoute de l'API
