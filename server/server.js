@@ -28,37 +28,6 @@ app.get('/users', async (req, res) => {
     }
 });
 // Endpoint pour mettre à jour les utilisateurs
-// Endpoint pour mettre à jour les utilisateurs
-app.put('/updateUsers', async (req, res) => {
-    const updatedUsers = req.body; // Les utilisateurs mis à jour envoyés depuis votre site internet
-
-    try {
-        // Boucle sur chaque utilisateur mis à jour
-        for (const updatedUser of updatedUsers) {
-            const userId = updatedUser.userId;
-
-            // Créez un objet pour stocker les données de mise à jour
-            const updateData = {};
-
-            // Vérifiez quels champs sont présents dans l'objet utilisateur mis à jour
-            if (updatedUser.ordreTour !== undefined) updateData.ordreTour = updatedUser.ordreTour;
-            if (updatedUser.towerPosition !== undefined) updateData.towerPosition = updatedUser.towerPosition;
-            if (updatedUser.power !== undefined) updateData.power = updatedUser.power;
-
-            // Effectuer les mises à jour dans la base de données pour chaque utilisateur
-            const user = await User.findByPk(userId);
-            if (user) {
-                await user.update(updateData);
-            }
-        }
-
-        res.status(200).json({ message: 'Users updated successfully' });
-    } catch (err) {
-        console.error(err);
-        res.status(500).json({ error: 'Internal Server Error' });
-    }
-});
-// Endpoint pour mettre à jour les utilisateurs
 app.put('/updateUsers', async (req, res) => {
     const updatedUsers = req.body; // Les utilisateurs mis à jour envoyés depuis votre site internet
 
@@ -88,7 +57,6 @@ app.put('/updateUsers', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error', details: err.message });
     }
 });
-
 
 
 
