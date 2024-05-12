@@ -42,8 +42,8 @@ app.put('/updateUsers', async (req, res) => {
 
             // Vérifiez quels champs sont présents dans l'objet utilisateur mis à jour
             if (updatedUser.ordreTour !== undefined) updateData.ordreTour = updatedUser.ordreTour;
-            if (updatedUser.towerPosition !== undefined) updateData.towerPosition = updatedUser.towerPosition;
             if (updatedUser.power !== undefined) updateData.power = updatedUser.power;
+            if (updatedUser.positionTour !== undefined) updateData.positionTour = updatedUser.positionTour;
 
             // Effectuer les mises à jour dans la base de données pour chaque utilisateur
             const user = await User.findByPk(userId);
@@ -60,6 +60,7 @@ app.put('/updateUsers', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error', details: err.message });
     }
 });
+
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
