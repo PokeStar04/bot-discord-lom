@@ -23,7 +23,6 @@ app.get('/users', async (req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
-
 app.put('/updateUsers', async (req, res) => {
     const updatedUsers = req.body; // Utilisateurs mis à jour envoyés depuis votre site internet
 
@@ -35,7 +34,7 @@ app.put('/updateUsers', async (req, res) => {
 
         // Boucle sur chaque utilisateur mis à jour
         for (const updatedUser of updatedUsers) {
-            const userId = updatedUser.userId;
+            const userId = updatedUser.id; // Utiliser id plutôt que userId
 
             // Créez un objet pour stocker les données de mise à jour
             const updateData = {};
