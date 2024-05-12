@@ -49,6 +49,8 @@ app.put('/updateUsers', async (req, res) => {
             const user = await User.findByPk(userId);
             if (user) {
                 await user.update(updateData);
+            } else {
+                console.error(`User with ID ${userId} not found`);
             }
         }
 
